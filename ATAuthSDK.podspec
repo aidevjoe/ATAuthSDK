@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATAuthSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ATAuthSDK.'
+  s.version          = '2.12.1.3'
+  s.summary          = '阿里云号码认证SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ATAuthSDK/Classes/**/*'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  # s.resource_bundles = {
-  #   'ATAuthSDK' => ['ATAuthSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources           = 'ATAuthSDK/ATAuthSDK.framework/ATAuthSDK.bundle'
+  s.vendored_frameworks = 'ATAuthSDK/ATAuthSDK.framework','ATAuthSDK/YTXMonitor.framework','ATAuthSDK/YTXOperators.framework'
 end
