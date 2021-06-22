@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AliAuthSDK'
-  s.version          = '2.12.1.3'
+  s.version          = '2.12.1.3.2'
   s.summary          = '阿里云号码认证SDK.'
 
 # This description is used to generate tags and improve search results.
