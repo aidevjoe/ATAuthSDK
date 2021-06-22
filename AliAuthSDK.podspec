@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ATAuthSDK'
+  s.name             = 'AliAuthSDK'
   s.version          = '2.12.1.3'
   s.summary          = '阿里云号码认证SDK.'
 

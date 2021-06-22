@@ -1,6 +1,6 @@
 use_frameworks!
 target 'ATAuthSDK_Tests' do
-  pod 'ATAuthSDK', :path => '../'
+  pod 'AliAuthSDK', :path => '../'
   
   
 end
